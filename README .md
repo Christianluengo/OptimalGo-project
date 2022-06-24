@@ -6,7 +6,7 @@ El Proyecto **OptimalGo** tiene como objetivo pronosticar los envíos de paquete
 
 Con este fin, se calcularon 50 series temporales para cada una de las 50 provincias que dispone el territorio español. Después de probar diferentes modelos, tanto de series temporales como regresiones lineales, el modelo que mejor resultado obtuvo durante las pruebas fue [Prophet](https://facebook.github.io/prophet/), obteniendo un RMSE y MAPE más optimo que el resto de los modelos. 
 
-
+      
 ## Estructura de carpetas 
 
 - **Notebook:** Se encuentran los archivos .ipynb donde podemos encontrar el modelo utilizado, la fusión de los csv, geopy y la inserción de datos en Mongo DB.
